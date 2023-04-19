@@ -1,0 +1,20 @@
+body {margin: 10px auto;
+max-width: 760px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.1em;}
+
+header {background-color: blueviolet;
+display: flex;
+flex-direction:row;
+align-items: center;
+margin: 10px;}
+img {border: 2px;
+border-width: 2px;}
+
+main h2 {margin-left: 20px;
+margin-bottom: 0px;}
+body h1 {margin-left: 20px;}
+footer {background-color: blueviolet;
+text-align: center;
+padding: 10px;}
+.hr {margin-top: 0%;}
