@@ -8,8 +8,10 @@ display: flex;
 flex-direction:row;
 align-items: center;
 margin: 10px;}
-img {border: 2px;
-border-width: 2px;}
+img {border: 2px groove black;
+border-top-left-radius: 50%;
+border-bottom-right-radius: 50%;}
+
 
 main h2 {margin-left: 20px;
 margin-bottom: 0px;}
