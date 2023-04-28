@@ -3,19 +3,22 @@ max-width: 760px;
 font-family: 'Courier New', Courier, monospace;
 font-size: 1.1em;}
 
-header {background-color: blueviolet;
-display: flex;
-flex-direction:row;
+header, footer {background-color: blueviolet;
+  width: 100%;
+
 align-items: center;
-margin: 10px;}
-img {border: 2px groove black;
+margin: 10px;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;}
+img {border: 2px groove none;
 border-top-left-radius: 50%;
-border-bottom-right-radius: 50%;}
+border-bottom-right-radius: 50%;
+width: 100%;}
 
 
 main h2 {margin-left: 20px;
 margin-bottom: 0px;}
-body h1 {margin-left: 20px;}
+ h1 {margin-left: 20px;}
 footer {background-color: blueviolet;
 text-align: center;
 padding: 10px;}
