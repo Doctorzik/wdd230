@@ -5,21 +5,33 @@ FFE6C7
 */
 
 
+body{margin: 0px auto;
+  max-width: 760px;
 
-body{
-margin: 10px auto;
-font-family: "roboto", "sans-serif" ;
-;}
-h1{margin-top: 20px;}
+font-family: "roboto", "sans-serif" ;}
 
-header, footer {text-align: center;
-margin-top: 0px;
-word-spacing: 2px;
+
+header, footer  {margin-right:0%;
+  display:inline-block;
+  text-align: center;
+font-size: 0.9em;
 background-color:#FFE6C7;
 width: 100%;}
+h1{margin-top: 0px;}
 
-h3,h4 {margin: 10px;
-color:#454545}
+section, h3 {text-align: center;}
 
-.main-grid {display: grid;}
+a {text-decoration: none;
+font-size: 30px;
+color: #FFE6C7;}
+
+.first, .second, .third {background-color: #9c6442;
+margin-top:30px;
+padding: 10px;
+border-style: solid;
+border-width: 2px;}
+
+.main-grid {display: grid;
+  grid-template-columns: 1fr;
+}
 img {width:400px;}

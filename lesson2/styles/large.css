@@ -1,7 +1,5 @@
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 760px){
   .main-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
   }
   
 }
