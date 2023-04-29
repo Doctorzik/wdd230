@@ -11,6 +11,7 @@ body{margin: 0px auto;
 font-family: "roboto", "sans-serif" ;}
 
 
+
 header, footer  {margin-right:0%;
   display:inline-block;
   text-align: center;
@@ -34,4 +35,5 @@ border-width: 2px;}
 .main-grid {display: grid;
   grid-template-columns: 1fr;
 }
-img {width:400px;}
+img {width:390px;
+border: 2px solid black;}
