@@ -24,9 +24,9 @@ section, h3 {text-align: center;}
 
 a {text-decoration: none;
 font-size: 30px;
-color: #FFE6C7;}
+color: #1f1509;}
 
-.first, .second, .third {background-color: #9c6442;
+.first, .second, .third {background-color: #c2a030d8;
 margin-top:30px;
 padding: 10px;
 border-style: solid;
@@ -37,3 +37,8 @@ border-width: 2px;}
 }
 img {width:390px;
 border: 2px solid black;}
+
+p, h2 {color: black;
+  background-color: rgb(253, 247, 247);
+font-size: 18px;
+line-height: 25px;}
