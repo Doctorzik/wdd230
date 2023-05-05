@@ -35,7 +35,7 @@ border-width: 2px;}
 .main-grid {display: grid;
   grid-template-columns: 1fr;
 }
-img {width:390px;
+img {width:100%;
 border: 2px solid black;}
 
 p, h2 {color: black;
