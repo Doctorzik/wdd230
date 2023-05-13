@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {max-width: 1200px;
+  margin: 0 auto;
+;
+	font-family: Roboto, Helvetica, sans-serif;
+  align-content: center;
+}
+
+
+header {background-color:#DADBD7;
+text-align: center;
+padding-top: .2rem;
+padding-bottom: .2rem;
+}
+
+header h1 {margin: 0px;
+font-size: 10px;}
+nav, button {display: inline-block;}
+
+
+nav { background-color: #eee;
+  grid-column: 5/6;
+  grid-row: 1/2;
+ 
+}
+header div {background-color: #555;
+color:#DADBD7;
+padding: 5px;}
+header nav ul{list-style-type: none;
+padding: 0;
+margin: 0;}
+header nav button {margin: .2rem 2vw;
+background-color: transparent;
+border: none;
+font-size: 2rem;
+color: #555}
+
+
+nav ul li a { display: block;
+padding: .8rem 2vw;
+text-decoration: none;
+color: #333;
+border-top: 1px solid rgba(0,0,0,0.5);}
+
+nav ul li.active a {background-color: rgba(0,0,0,0.2);
+color: #fff}
+
+nav ul li a:hover {background-color: rgba(0,0,0,0.3);}
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#button span:nth-child(1) {display: block;}
+#button span:nth-child(2) {display: none;}
+
+
+#button.open span:nth-child(1) {display: none;}
+#button.open span:nth-child(2) {display: block;}
+
+
+main {width: 100%;
+  margin: 10px;
+height: 100%;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+text-align: center;}
+.weather, .events, .sportlight, .hero, .news-release {height: 200px;
+  border:   5px solid black;
+margin-bottom: 10px ;}
+.join, .sportlight3 { display: none;}
+
+footer {background-color: #DADBD7;
+text-align: center;}
