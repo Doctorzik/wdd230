@@ -62,7 +62,7 @@ right: 25%;
 nav ul {display: flex;
 flex-direction: row;
 position: absolute;
-top: 40px;
+top: 10%;
 left: 40%;}
 button {display: none;}
 header {position: relative;
