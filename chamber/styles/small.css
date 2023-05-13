@@ -15,7 +15,11 @@ header {background-color:#DADBD7;
 text-align: center;
 padding-top: .2rem;
 padding-bottom: .2rem;
+display:flow-root; 
 }
+.div4, .img-div {display: inline-flex;}
+.img-div{float: left;
+top: 10px;}
 
 header h1 {margin: 0px;
 font-size: 10px;}
@@ -45,7 +49,7 @@ padding: .8rem 2vw;
 text-decoration: none;
 color: #333;
 border-top: 1px solid rgba(0,0,0,0.5);}
-
+.mmmw {float:right ;}
 nav ul li.active a {background-color: rgba(0,0,0,0.2);
 color: #fff}
 
