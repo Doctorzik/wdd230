@@ -1,10 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 body {max-width: 1200px;
-  margin: 0 auto;
+  margin-right: 10px;
+  margin-left: 10px;
+
   font-family: "Manrope";
   align-content: center;
   color: black;
@@ -16,17 +14,16 @@ header {background-color:#DADBD7;
 text-align: center;
 padding-top: .2rem;
 padding-bottom: .2rem;
-display:flow-root; 
 font-family: "Garamond" , "Rubik";
 
 color: black;
+
 }
 .div4, .img-div {display: inline-flex;}
 .img-div{float: left;
 top: 10px;}
 
-header h1 {margin: 0px;
-font-size: 10px;}
+
 nav, button {display: inline-block;}
 
 .tt {background-color: inherit;
@@ -70,15 +67,15 @@ nav ul.open {display: block;}
 #button.open span:nth-child(2) {display: block;}
 
 
-main {width: 100%;
+main {
   margin: 10px;
-height: 100%;
+
 display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
 text-align: center;}
-.weather, .events, .sportlight, .hero, .news-release {height: 200px;
-  border:   5px solid black;
+.weather, .events, .sportlight, .hero, .news-release {
+  border:   1px solid ;
 margin-bottom: 10px ;}
 .join, .sportlight3 { display: none;}
 

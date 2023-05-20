@@ -1,22 +1,23 @@
 
 const button = document.querySelector("button")
-const input = document.querySelector("input")
-const list = document.querySelector("ul")
+const input = document.querySelector("#favchap")
+const list = document.querySelector("#list")
 
 button.addEventListener("click", function(){
-    const myInput = input.value;
      const listItem = document.createElement("li");
      const del = document.createElement("button");
      listItem.textContent = input;
-     
-     listItem.append(del)
+     del.textContent = "&#10060";
+     const my = listItem.append(del)
 
-     list.append(del);
+     list.append(my);
 
 
-     del.addEventListener("click", document.removeChild(listItem))
+     del.addEventListener("click", del.remove(listItem))
 
      input.focus();
+
+     input.value = "";
 
   
   
