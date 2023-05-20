@@ -78,7 +78,18 @@ nav ul li a{border: none;}
 flex: 1 100px}
 .ii {margin-right: 50%;}
 .tt{display: block;}
-
+.hero > a > button {background-color: rgb(96, 185, 96);
+  text-decoration-style: none;
+  width: 200px;
+  display: block;
+  margin-top: 200px;
+  
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  a {display: block;}
+  .hero {display: grid;
+  grid-template-columns: 1fr 200px;}
 
  }
  

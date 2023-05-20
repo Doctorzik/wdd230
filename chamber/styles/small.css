@@ -78,6 +78,17 @@ text-align: center;}
   border:   1px solid ;
 margin-bottom: 10px ;}
 .join, .sportlight3 { display: none;}
+.hero > a > button {background-color: rgb(96, 185, 96);
+text-decoration-style: none;
+width: 200px;
+height: 50px;
+border-radius: 10px;
+font-weight: bolder;
+font-size: larger;
+line-height: 20%;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 footer {background-color: #DADBD7;
 text-align: center;}
