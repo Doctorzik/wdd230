@@ -15,17 +15,17 @@ button.addEventListener("click", function() {
      
      const del = document.createElement("button");
 
-        li.textContent= input.value;
-     del.textContent = "&#10060";
+      var mes = li.textContent= input.value;
+     del.textContent = "X";
     var me =  li.append(del)
 
 
-     list.append(li, del);
+     list.append(mes, del);
 
 
 
 
-     del.addEventListener("click", li.remove())
+     del.addEventListener("click", li.remove)
 
      input.focus();
 
