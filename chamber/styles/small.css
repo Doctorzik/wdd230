@@ -4,7 +4,6 @@ body {max-width: 1200px;
   margin-left: 10px;
 
   font-family: "Manrope";
-  align-content: center;
   color: black;
 }
 
@@ -89,6 +88,7 @@ line-height: 20%;
 
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.hero {height: 210px;}
 
 footer {background-color: #DADBD7;
 text-align: center;}
