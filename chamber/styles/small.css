@@ -88,7 +88,21 @@ line-height: 20%;
 
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.hero {height: 210px;}
+/* picture {width: 100%;} */
+.hero-content{position: relative;}
+.my-h1 {position: absolute;
+top: 0;
+right: 0}
+.hero-content a  {position: absolute;
+bottom: 10px;
+right:10px}
+
+img {width: 100%;
+height: inherit;object-fit: cover;}
 
 footer {background-color: #DADBD7;
 text-align: center;}
+.banner {width: 100%;
+background-color: aqua;
+text-align: center;
+display:none;}

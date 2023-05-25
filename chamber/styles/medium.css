@@ -5,8 +5,7 @@
   grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;}
   .hero{ grid-column: 1/4;
-    grid-row: 1/2;
-  height: 100%;}
+    grid-row: 1/2;}
   .news-release{
     grid-column: 1/4;
     grid-row: 2/3;
@@ -84,7 +83,6 @@ nav ul li a { display: block;
   color: #fff}
   a > button {background-color: rgb(96, 185, 96);
     width: 200px;
-    height: 50px;
     border-radius: 10px;
     font-weight: bolder;
     font-size: larger;
@@ -94,6 +92,8 @@ nav ul li a { display: block;
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    .mmmw {position: absolute;
+      right:10px;}
   
   nav ul li a:hover {background-color: rgba(0,0,0,0.3);}
   nav ul {display: none;}
