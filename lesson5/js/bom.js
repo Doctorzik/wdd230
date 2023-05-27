@@ -8,6 +8,13 @@ console.log(list)
 
 
 button.addEventListener("click", function() {
+
+     if (input.value == ""){
+          alert("Please add a scripture book");
+     }
+     else
+     {
+
   var mes =    input.value;
 
      const li = document.createElement("li");
@@ -25,11 +32,11 @@ button.addEventListener("click", function() {
 
 
 
-     del.addEventListener("click", li.remove)
+     del.addEventListener("click", li.remove )
 
      input.focus();
 
-     input.value = "";
+     input.value = "";}
 
   
   

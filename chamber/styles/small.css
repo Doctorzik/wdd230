@@ -88,6 +88,8 @@ line-height: 20%;
 
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.weatherlogo {width: 100px;}
+
 /* picture {width: 100%;} */
 .hero-content{position: relative;}
 .my-h1 {position: absolute;
