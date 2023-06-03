@@ -11,5 +11,6 @@ const oldDate = lastVisit;
 const millDiff = newDate - oldDate;
 
 const numberOfDays = millDiff / millPerDay;
+console.log(numberOfDays)
 
-document.querySelector("local").textContent = numberOfDays;
+document.getElementById("local").innerHTML = numberOfDays;
