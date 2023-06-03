@@ -12,4 +12,4 @@ const millDiff = newDate - oldDate;
 
 const numberOfDays = millDiff / millPerDay;
 
-document.querySelector("#local").textContent = numberOfDays;
+document.querySelector("local").textContent = numberOfDays;
