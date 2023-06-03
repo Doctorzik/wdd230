@@ -1,12 +1,12 @@
-let date = new Date();
+let datew = new Date();
 const millPerDay = 1000 * 60 * 60 * 24;
 
 
-localStorage.setItem("visitDate", date.getTime());
+localStorage.setItem("visitDate", datew.getTime());
 
 const lastVisit = localStorage.getItem("visitDate");
 
-const newDate = date.getTime();
+const newDate = datew.getTime();
 const oldDate = lastVisit;
 const millDiff = newDate - oldDate;
 
