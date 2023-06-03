@@ -107,5 +107,11 @@ nav ul li a { display: block;
   #button.open span:nth-child(2) {display: block;}
   
   .join {border: 1px solid }
+
+  
+  .discover-container{display: grid;
+    grid-template-columns: 1fr;
+    width: 10 auto;
+    }
   
 }

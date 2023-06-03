@@ -96,5 +96,12 @@ flex: 1 100px}
   .hero {display: grid;
   grid-template-columns: 1fr;}
 
+  .discover-container{display: grid;
+    grid-template-columns: 1fr;
+    }
+
  }
+ 
+ /* This is the css for the discover page large view */
+
  
