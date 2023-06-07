@@ -3,3 +3,7 @@ caption{caption-side: bottom;}
 tbody {font-weight: bold;}
 tbody tr:nth-child(2){background-color: gray;}
 
+table{border-collapse: collapse;
+margin:  auto;}
+h1 {text-align: center;}
+
