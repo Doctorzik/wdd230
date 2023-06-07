@@ -1,0 +1,5 @@
+thead{background-color: rgba(0, 0, 0 , .5)}
+caption{caption-side: bottom;}
+tbody {font-weight: bold;}
+tbody tr:nth-child(2){background-color: gray;}
+
