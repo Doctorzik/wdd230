@@ -11,6 +11,9 @@ let year = date.getFullYear();
 let currentDate =  `${year}`
 document.getElementById("year").textContent = currentDate;
 document.getElementById("currentDate").textContent = document.lastModified;
+let  timestampField = document.getElementById("timestamp");
+timestampField.value = date
+
 
 
 

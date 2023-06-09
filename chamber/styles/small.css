@@ -113,3 +113,28 @@ display:none;}
 /*    This is the css for the Discovery page     */
 .figure-elements {margin-left: 0;
 margin-right: 0;}
+
+/*    This is the css for the Join page     */
+
+form label.top, label.top input {
+  display: block;
+  width: 100%;
+  
+}
+label.top  input, textarea {
+  margin-bottom: 1rem;
+  border: none;
+  background-color: rgba(177, 177, 177, 0.199);
+  border-bottom: 1px solid rgb(96, 185, 96);
+ }
+ .sbs {display: block;
+height: min-content;
+padding: .3rem;}
+.sbs input{margin-right: 1rem;}
+
+form div {text-align: center;}
+
+.submit {border: none;
+width: 100%;
+max-width: 20rem;}
+.benefit {display: none;}

@@ -42,35 +42,54 @@
    <h1>Yenegoa City Hub</h1>
     <p class="ii">Chamber of Commerce</p>
  
-   
-    
+
     
    
     <div class="tt">Friday, 12  May 2023</div>
    
   </header>
+  <div>
+    <h2>Become a Member Today &#33;</h2>
+    <p>Boost your bussiness present, get quality advice from professionals in Yenegoa Hub by joining us today</p>
+  </div>
+
+
   <form method="get" action="thankyou.html">
-   <label for="fname">First Name:
+    <input type="hidden" id="timestamp" name="timestamp" value="">
+   <label class="top" for="fname">First Name:
     <input id="fname" name="fname" type="text" placeholder="First Name" required>
    </label>
-   <label for="lname">Last Name:
+   <label class="top" for="lname">Last Name:
     <input id="lname" name="lname" type="text" placeholder="Last Name" required>
    </label>
-   <label for="buissness">Bussiness Position Title:
-    <input id="buissness" name="buissness" type="text" >
+   <label class="top" for="buissness">Title:
+    <input id="buissness" name="buissness" type="text"  pattern="^[a-zA-Z\- ]{7,}$" title="business position" >
    </label>
-   <label for="email">Email:
-    <input id="email" name="email" type="email" placeholder="me@gmail.cpm">
+   <label class="top" for="email">Email:
+    <input id="email" name="email" type="email" placeholder="me@gmail.cpm" required>
    </label>
-   <label for="tel">Phone Number:
+   <label class="top" for="tel">Phone Number:
     <input id="tel" name="tel" type="tel" required>
    </label>
-   <label for="Bussinessname">Bussiness Name:
-    <input id="Bussinessname" name="Bussinessname" type="text" >
+   <label class="top" for="Bussinessname">Bussiness Name:
+    <input id="Bussinessname" name="Bussinessname" required  >
    </label>
+
+   <fieldset>
+    <legend>Membership Level</legend>
+    <div>Each Membership Level has it's own benefit</div>
+    <label class="sbs" for="np"><input name="membership" id="np" type="radio">NP Membership <span class="benefit"> For non profit organizations at NO Cost</span></label>
+    <label class="sbs" for="br"><input name="membership" type="radio">Bronze Membership <span class="benefit">Events discount $80 anually </span></label>
+    <label class="sbs" for=""><input name="membership" type="radio">Silver Membership <span class="benefit"> ussiness Training at $100 anually</span></label>
+    <label class="sbs" for=""><input name="membership" type="radio">Gold Membership <span class="benefit"> All benefits including more presence in sportlight section</span></label>
+   </fieldset>
+     <div>Describe Your Bussiness</div>
+   <label class="top" for="message"><textarea name="message" rows="4" cols="50"></textarea></label>
    
-    
+   <input class="submit sbs"  type="submit" value="Join Yenegoa Hub"> 
+
   </form>
+ 
   <footer>
     <div class="first">
     <div><img src="images/default.png" alt="Yenegoa Hub Log" /></div>
@@ -92,5 +111,6 @@
   
    </section>
   </footer>
+  <script src="scripts/script.js"></script>
 </body>
 </html>

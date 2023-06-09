@@ -108,6 +108,7 @@ nav ul li a { display: block;
   
   .join {border: 1px solid }
 
+.benefit {display: contents;}
   
   .discover-container{display: grid;
     grid-template-columns: 1fr;
