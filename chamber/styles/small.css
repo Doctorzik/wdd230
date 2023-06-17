@@ -1,5 +1,5 @@
-
-body {max-width: 1200px;
+body {
+  max-width: 1200px;
   margin-right: 10px;
   margin-left: 10px;
 
@@ -7,134 +7,301 @@ body {max-width: 1200px;
   color: black;
 }
 
-p {font-family: "Manrope";
-font-weight: 200;}
-header {background-color:#DADBD7;
-text-align: center;
-padding-top: .2rem;
-padding-bottom: .2rem;
-font-family: "Garamond" , "Rubik";
-
-color: black;
-
+p {
+  font-family: "Manrope";
+  font-weight: 200;
 }
-.div4, .img-div {display: inline-flex;}
-.img-div{float: left;
-top: 10px;}
+header {
+  background-color: #dadbd7;
+  text-align: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-family: "Garamond", "Rubik";
 
+  color: black;
+}
+.div4,
+.img-div {
+  display: inline-flex;
+}
+.img-div {
+  float: left;
+  top: 10px;
+}
 
-nav, button {display: inline-block;}
+nav,
+button {
+  display: inline-block;
+}
 
-.tt {background-color: inherit;
-color: inherit;}
-nav { background-color: #eee;
+.tt {
+  background-color: inherit;
+  color: inherit;
+}
+nav {
+  background-color: #eee;
   grid-column: 5/6;
   grid-row: 1/2;
- 
 }
-header div {background-color: #555;
-color:#DADBD7;
-padding: 5px;}
-header nav ul{list-style-type: none;
-padding: 0;
-margin: 0;}
-header nav button {margin: .2rem 2vw;
-background-color: transparent;
-border: none;
-font-size: 2rem;
-color: #555}
+header div {
+  background-color: #555;
+  color: #dadbd7;
+  padding: 5px;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
 
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.mmmw {
+  float: right;
+}
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
 
-nav ul li a { display: block;
-padding: .8rem 2vw;
-text-decoration: none;
-color: #333;
-border-top: 1px solid rgba(0,0,0,0.5);}
-.mmmw {float:right ;}
-nav ul li.active a {background-color: rgba(0,0,0,0.2);
-color: #fff}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
 
-nav ul li a:hover {background-color: rgba(0,0,0,0.3);}
-nav ul {display: none;}
-nav ul.open {display: block;}
+#button span:nth-child(1) {
+  display: block;
+}
+#button span:nth-child(2) {
+  display: none;
+}
 
-#button span:nth-child(1) {display: block;}
-#button span:nth-child(2) {display: none;}
-
-
-#button.open span:nth-child(1) {display: none;}
-#button.open span:nth-child(2) {display: block;}
-
+#button.open span:nth-child(1) {
+  display: none;
+}
+#button.open span:nth-child(2) {
+  display: block;
+}
 
 main {
   margin: 10px;
 
-display: grid;
-grid-template-columns: auto;
-grid-template-rows: auto;
-text-align: center;}
-.weather, .events, .sportlight, .hero, .news-release {
-  border:   1px solid ;
-margin-bottom: 10px ;}
-.join, .sportlight3 { display: none;}
-.hero > a > button {background-color: rgb(96, 185, 96);
-text-decoration-style: none;
-width: 200px;
-height: 50px;
-border-radius: 10px;
-font-weight: bolder;
-font-size: larger;
-line-height: 20%;
-
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  text-align: center;
 }
-.weatherlogo {width: 100px;}
+.weather,
+.events,
+.sportlight,
+.hero,
+.news-release {
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+.join,
+.sportlight3 {
+  display: none;
+}
+.hero > a > button {
+  background-color: rgb(96, 185, 96);
+  text-decoration-style: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: larger;
+  line-height: 20%;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.weatherlogo {
+  width: 100px;
+}
 
 /* picture {width: 100%;} */
-.hero-content{position: relative;}
-.my-h1 {position: absolute;
-top: 0;
-right: 0}
-.hero-content a  {position: absolute;
-bottom: 10px;
-right:10px}
+.hero-content {
+  position: relative;
+}
+.my-h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hero-content a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
 
-img {width: 100%;
-height: inherit;object-fit: cover;}
+img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
 
-footer {background-color: #DADBD7;
-text-align: center;}
-.banner {width: 100%;
-background-color: aqua;
-text-align: center;
-display:none;}
-
+footer {
+  background-color: #dadbd7;
+  text-align: center;
+}
+.banner {
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+  display: none;
+}
 
 /*    This is the css for the Discovery page     */
-.figure-elements {margin-left: 0;
-margin-right: 0;}
+.figure-elements {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /*    This is the css for the Join page     */
 
-form label.top, label.top input {
+form label.top,
+label.top input {
   display: block;
   width: 100%;
-  
 }
-label.top  input, textarea {
+label.top input,
+textarea {
   margin-bottom: 1rem;
   border: none;
   background-color: rgba(177, 177, 177, 0.199);
   border-bottom: 1px solid rgb(96, 185, 96);
- }
- .sbs {display: block;
-height: min-content;
-padding: .3rem;}
-.sbs input{margin-right: 1rem;}
+}
+.sbs {
+  display: block;
+  height: min-content;
+  padding: 0.3rem;
+}
+.sbs input {
+  margin-right: 1rem;
+}
 
-form div {text-align: center;}
+form div {
+  text-align: center;
+}
 
-.submit {border: none;
-width: 100%;
-max-width: 20rem;}
-.benefit {display: none;}
+.submit {
+  border: none;
+  width: 100%;
+  max-width: 20rem;
+}
+.benefit {
+  display: none;
+}
+
+.img {
+  object-fit: cover;
+}
+section {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #eee;
+}
+/*
+header h1, section h2 {text-align: center;
+color: rgb(5, 5, 72);}
+
+main div {
+  
+   */
+
+.menu {
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #bed;
+  text-align: center;
+}
+.menu button {
+  padding: 1rem;
+  font-weight: 700;
+  display: contents;
+}
+.grid section {
+  text-align: center;
+}
+
+.grid img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #333;
+}
+.grid section > * {
+  margin: 0.1rem;
+}
+
+.grid h3 {
+  font-family: "Caveat", cursive;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list section {
+  margin: 0;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.list section > * {
+  margin: 0 1rem;
+}
+
+.list section img {
+  display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+  background-color: #bed;
+}
+
+section h3 {
+  font-size: 1.5rem;
+}
+
+section p {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+section a {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 0.85rem;
+  color: navy;
+  letter-spacing: 1.1pt;
+}
+
+.img {
+  height: 200px;
+  width: 90%; /* Images are jerks - Seattle*/
+}
+h2 {
+  text-align: center;
+}
