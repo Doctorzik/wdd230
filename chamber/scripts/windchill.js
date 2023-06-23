@@ -5,7 +5,7 @@ let weatherIcon = document.getElementById("weather-icon");
 let captionDesc = document.querySelector("figcaption");
 
 const url =
-  "http://api.openweathermap.org/data/2.5/weather?q=Bayelsa State&units=metric&limit=5&appid=59e29ea14e74049eec5fe8a71be46861";
+  "http://api.openweathermap.org/data/2.5/weather?q=Bayelsa State&units=metric&limit=5&appid=77cee840d3e3382026a5dff368c396ce";
 
 async function apiFetch() {
   try {
