@@ -8,7 +8,7 @@ let currentDate = `${year}`;
 document.getElementById("year").textContent = currentDate;
 document.getElementById("currentDate").textContent = document.lastModified;
 let timestampField = document.getElementById("timestamp");
-timestampField.value = date;
+// timestampField.value = date;
 
 document.querySelector(".tt").textContent = `${day} - ${month}- ${year}`;
 

@@ -9,7 +9,9 @@ const url =
 
 async function apiFetch() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, {
+      referrerPolicy: "strict-origin-when-cross-origin",
+    });
     if (response.ok) {
       const data = await response.json();
       // this is for testing the call
