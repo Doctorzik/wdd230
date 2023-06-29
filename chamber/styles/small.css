@@ -120,9 +120,9 @@ main {
 .sportlight3 {
   display: none;
 }
-.hero > a > button {
+.hero > a > div {
   background-color: rgb(96, 185, 96);
-  text-decoration-style: none;
+
   width: 200px;
   height: 50px;
   border-radius: 10px;
@@ -169,11 +169,14 @@ footer {
 }
 
 /*    This is the css for the Discovery page     */
+
 .figure-elements {
   margin-left: 0;
   margin-right: 0;
 }
-
+section > p {
+  font-size: 2rem;
+}
 /*    This is the css for the Join page     */
 
 form label.top,
@@ -303,5 +306,9 @@ section a {
   width: 90%; /* Images are jerks - Seattle*/
 }
 h2 {
+  text-align: center;
+}
+
+.thanks {
   text-align: center;
 }

@@ -26,11 +26,15 @@ function displayResults(weatherData) {
   temperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(
     0
   )}</strong>`;
-  const imagesrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const imagesrc = `https://openweathermap.org/img/wn/10d@2x.png`;
   const desc = weatherData.weather[0].description;
   desc.charAt(0).toUpperCase();
   weatherIcon.setAttribute("src", imagesrc);
   weatherIcon.setAttribute("alt", desc);
+  weatherIcon.setAttribute("loading", "lazy");
+  weatherIcon.setAttribute("width", "200");
+  weatherIcon.setAttribute("height", "200");
+
   captionDesc.innerHTML = desc;
   windSpeed.textContent = weatherData.wind.speed;
 }

@@ -30,7 +30,6 @@
   }
   .sportlight {
     display: flex;
-    flex-basis: 1;
   }
   .sportlight1,
   .sportlight2 {
@@ -133,6 +132,7 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .mmmw {
+    z-index: 1;
     position: absolute;
     right: 10px;
   }
@@ -172,7 +172,6 @@
   .discover-container {
     display: grid;
     grid-template-columns: 1fr;
-    width: 10 auto;
   }
 
   .img {
