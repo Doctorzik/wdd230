@@ -26,3 +26,32 @@ let today = date.getDay();
 if (today === 1 || today === 2) {
   document.querySelector(".banner").style.display = "unset";
 }
+async function GetDirectories() {
+  const response = await fetch("jsonfiles/data.json");
+  const data = await response.json();
+  console.log(data);
+  DisplaySportlight(data);
+}
+function DisplaySportlight(directories) {
+  const display = document.querySelector("div.sportlight");
+}
+// function getRandomItemsFromObject(obj) {
+//   // Get all keys from the object
+//   const keys = Object.keys(obj);
+
+//   // Shuffle the keys randomly
+//   const shuffledKeys = keys.sort(() => Math.random() - 0.5);
+
+//   // Get the first three keys from the shuffled array
+//   const randomKeys = shuffledKeys.slice(0, 3);
+
+//   // Create a new object with the random keys and their corresponding values
+//   const randomItems = {};
+//   randomKeys.forEach((key) => {
+//     randomItems[key] = obj[key];
+//   });
+
+//   return randomItems;
+// }
+
+GetDirectories();

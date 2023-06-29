@@ -2,7 +2,7 @@ let windSpeed = document.getElementById("windspeed");
 let windChill = document.getElementById("windchill");
 let temperature = document.getElementById("temperature");
 let weatherIcon = document.getElementById("weather-icon");
-let captionDesc = document.querySelector("figcaption");
+let captionDesc = document.querySelector("#description");
 
 const url =
   "https://api.openweathermap.org/data/2.5/weather?q=Bayelsa State&units=metric&limit=5&appid=47f0b5dd02ee9859c97b0f8f5e7c21c2";
@@ -12,7 +12,6 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      // this is for testing the call
       displayResults(data);
     } else {
       throw Error(await response.text());
