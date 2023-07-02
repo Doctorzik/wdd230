@@ -119,6 +119,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
   }
+  .hero-content a {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+  }
   a > button {
     background-color: rgb(96, 185, 96);
     width: 200px;

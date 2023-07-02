@@ -2,16 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="EZEKIEL HAPPY JEREMIAH" />
-    <meta
-      name="description"
-      content="This page provides  details of the home of home page ezekiel's Chamber of commerce site"
-    />
-
-    <link rel="favicon" href="/favicon.ico" />
-    <title>Yenegoa City Hub</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/medium.css" />
@@ -21,12 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Franklin&family=Manrope:wght@300&family=Rubik&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/4ca3d88dac.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="banner">
-      <h3>Wednesday Meeting this Week</h3>
-      <p>Come Join us this Wednesday for the chamber meet and greet at 7PM</p>
-    </div>
     <header>
       <nav class="mmmw">
         <button id="button"><span>&#9776;</span><span>X</span></button>
@@ -54,62 +46,56 @@
 
       <div class="tt">Friday, 12 May 2023</div>
     </header>
-
-    <main class="main">
-      <div class="hero hero-content">
-        <picture>
-          <source media="(min-width: 60rem)" srcset="images/yenlarge.webp" />
-          <source media="(min-width: 35rem)" srcset="images/yentownm.webp" />
-          <img src="images/yentowns.webp" alt="Yengoa Park" />
-        </picture>
-
-        <h1 class="my-h1">Welcome to Yenegoa Hub</h1>
-        <a href="join.html">Join the Chamber</a>
-      </div>
-      <div class="events">
-        <div>Epie Atissa Festial Comming Soon</div>
-        <p>Join Us as we celebrate the epie atissa festival this weekend</p>
-      </div>
-      <div class="weather">
-        <h3>Weather</h3>
-        <img id="weather-icon" />
-        <p>
-          <span id="description"></span><span id="temperature"></span
-          ><sup>C</sup>
-        </p>
+    <div>
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Yenegoa Chamber of Commerce</p>
+        <address>State Secretariet, Yenegoa, Bayelsa Nigeria</address>
+        <p><i class="fa-solid fa-phone"></i>+2348100806015</p>
         <hr />
-        <p>Wind Speed: <span id="windspeed"></span>Km/h</p>
-        <p>Wind Chill: <span id="windchill"></span></p>
-      </div>
-      <div class="news-release">
-        <h3>News Relese</h3>
+      </section>
+      <section class="inquiries">
+        <h2>General Enquires</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fugiat
-          at laborum odio sequi itaque consequatur vero repellat doloribus
-          delectus aperiam libero voluptatibus officiis explicabo fuga, mollitia
-          quo, quaerat hic.
+          For general enquirires and more information about the chamber of
+          commerce, Kindly reach out to us via our email:
+          <a href="Ndu.org">yenegoahub@gmail.com</a>
         </p>
-      </div>
+      </section>
+      <section class="feedback">
+        <h2>Have a feedback?</h2>
+        <div>
+          <p>
+            Kindly fill Out the form below and our team will review your
+            feedback for better service
+          </p>
+        </div>
+        <form>
+          <label class="top" for="fname"
+            >Name: <input type="telext" id="name" name="fname"
+          /></label>
+          <label class="top" for="lname"
+            >last Name: <input type="text" id="lastname" name="lname"
+          /></label>
+          <label for="email" class="top"
+            >Email:<input type="email" id="email" name="email"
+          /></label>
+          <p>Are you member of Yenegoahub</p>
+          <label class="sbs" for="radio"
+            >Yes<input type="radio" id="radio" name="radio"
+          /></label>
+          <label class="sbs" for="radio"
+            >No<input type="radio" id="radio" name="radio"
+          /></label>
+          <div>Send us your feedback</div>
+          <label class="top" for="message">
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+          </label>
 
-      <div class="sportlight">
-        <div id="spot1">
-          <h2>Spotlight 1</h2>
-        </div>
-        <div id="spot2">
-          <h2>Spotlight 2</h2>
-        </div>
-        <div id="spot3">
-          <h2>Spotlight 3</h2>
-        </div>
-      </div>
-      <div class="join">
-        <a href="join.html">JOIN US!</a>
-        <p>
-          Discover hot to join the chamber and how it will benefit your
-          buissness
-        </p>
-      </div>
-    </main>
+          <input class="submit sbs" type="submit" value="Send feedback" />
+        </form>
+      </section>
+    </div>
     <footer>
       <div class="first">
         <div>
@@ -145,7 +131,5 @@
         <p class="p4">Last Updated: <span id="currentDate"></span></p>
       </section>
     </footer>
-    <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
   </body>
 </html>
